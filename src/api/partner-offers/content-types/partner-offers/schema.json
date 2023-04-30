@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partneroffers",
+  "info": {
+    "singularName": "partner-offers",
+    "pluralName": "partneroffers",
+    "displayName": "partner-offers"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}
